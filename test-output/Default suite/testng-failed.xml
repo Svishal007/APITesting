@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestOtwani.Post_Delete_Put_Example">
+      <class name="oAuth.TwitterAPI">
         <methods>
-          <include name="testDelete"/>
+          <include name="postTweet"/>
         </methods>
-      </class> <!-- RestOtwani.Post_Delete_Put_Example -->
+      </class> <!-- oAuth.TwitterAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
